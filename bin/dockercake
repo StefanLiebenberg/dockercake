@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "./lib/dockercake"
+
+
+app_file = ARGV[0]
+
+DockerCake::Initializer.start(app_file)
+

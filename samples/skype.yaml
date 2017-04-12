@@ -1,6 +1,8 @@
 name: Skype
 type: application
 image: jess/skype
+persist:
+- '/home/skype/.Skype'
 permissions:
   required:
   - network
@@ -8,3 +10,4 @@ permissions:
   optional:
   - video
   - sound
+  - storage
