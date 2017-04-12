@@ -1,0 +1,10 @@
+name: Skype
+type: application
+image: jess/skype
+permissions:
+  required:
+  - network
+  - display
+  optional:
+  - video
+  - sound
