@@ -9,5 +9,9 @@ Run applications contained in docker.
 - `gem install bundler`
 - `bundle install`
 
+# usage
 
-ruby lib/dockercake.rb samples/skype.yml 
+To run an application yaml.
+
+
+    ruby lib/dockercake.rb samples/skype.yaml 
