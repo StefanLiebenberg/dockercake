@@ -14,4 +14,4 @@ Run applications contained in docker.
 To run an application yaml.
 
 
-    ruby lib/dockercake.rb samples/skype.yaml 
+    bin/dockercake samples/skype.yaml 
